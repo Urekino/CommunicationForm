@@ -1,0 +1,50 @@
+<!docktype html>
+<html>
+	<head>
+		<script defer src="form.js"></script>
+		<meta charset="utf-8";>
+		<style type="text/css">
+		#st{
+				background-color:lemonchiffon;
+				border:2px solid black;
+				}
+		h1{
+			background-color:lightseagreen;
+			text-align:center;}
+		</style>
+	</head>
+	<body>
+		<form action="/action_page.php" method="get">
+			<h1>Φόρμα Επικοινωνίας</h1><br />
+			<section id="st">
+				<h3>Συμπληρώστε παρακαλώ τα παρακάτω στοιχεία<h3> <br /><br />
+				<div class="username">
+					<label for="username">Ονοπατεππώνυμο<label> <br /><input type="text" length=550p;/><br />
+				Ηλικία (διαλέξτε από τα παρακάτω)<br/>
+				<label for="17">Εώς 17</label><input type="radio" name="age" id="17"/><br />
+				<label for="18-30">Από 18  εώς 30</label><input type="radio"	name="age" id="18-30"/><br />
+				<label for="31-40">από 31 εώς 40</label><input type="radio"	name="age" id="31-40"/><br />
+				<label for="41-55">από 41 εώς 55</label><input type="radio"  name="age" id="41-55"/><br />
+				<label for="56-65">από 56 εώς 65</label><input type="radio" name="age" id="56-65"/><br />
+				<label for="66+">πάνω από 66</label><input type="radio" name="age" id="66+"/><br /><br />
+				Τι πληροφορία θέλετε(διαλέξτε όσα θέλετε)<br />
+				<label for="hotels">Ξενοδοχεία</label><input type="checkbox" name="informations" id="hotels"/><br />
+				<label for"museum">Μουσεία</label><input type="checkbox" name="informations" id="museum"/><br />
+				<label for="sightsseeing">Αξιοθέατα</label><input type="checkbox" name="informations" id="sightseeing"/><br />
+				<label for="food">Εστιατόρια-Εστίαση</label><input type="checkbox" name="informations" id="food"/><br /><br />
+
+
+
+				<label for="contact">email επικοινωνίας</label><br /><input type="emal"/><br /><br />
+				<input type="button" id="button" value="Υποβολή-Δείξε στοιχεία"/>
+				<input type="reset" value="Καθάρισμα"/>
+
+
+				</div>
+			</section>
+		</form>
+	</body>
+
+
+
+</html>
